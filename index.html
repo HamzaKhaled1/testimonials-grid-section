@@ -28,25 +28,18 @@
     
     
       /* Responsive styles for smaller screens (max-width: 768px) */
-      @media screen and (max-width: 768px) {
+     
+    
+      /* Extra responsiveness for smaller devices (max-width: 450px) */
+      @media screen and (max-width: 450px) {
         .col-9 {
           flex: 0 0 100%;
-        }
-    
-        .col-7,
-        .col-4 {
-          flex: 0 0 100%;
-          margin-bottom: 20px;
         }
     
         .row-5 {
           flex-direction: column;
           gap: 0px;
         }
-      }
-    
-      /* Extra responsiveness for smaller devices (max-width: 450px) */
-      @media screen and (max-width: 450px) {
         .container {
           flex-direction: column;
           gap: 20px;
@@ -60,6 +53,8 @@
        .col-7,
         .col-4 {
           width: 100%;
+          flex: 0 0 100%;
+          margin-bottom: 20px;
 
         }
         .last {
